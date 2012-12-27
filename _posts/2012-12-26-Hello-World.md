@@ -6,8 +6,6 @@ url: http://apievangelist.com
 
 {% include JB/setup %}
 
-<h1>Hello IP Evangelist</h1>
-
 <p>My name is Kin Lane, I am the <a href="http://apievangelist.com" target="_blank">API Evangelist</a>.</p>
 
 <p>While traveling the globe, dedicating my life to API evangelism, I only drink one beer--IPAs.</p>
