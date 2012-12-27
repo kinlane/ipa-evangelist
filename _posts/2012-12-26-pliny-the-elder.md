@@ -1,6 +1,6 @@
 ---
-layout: default
-published: false
+layout: post
+title: Pliny the Elder
 ---
 
 {% include JB/setup %}

@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Hackathons for Week of October 29th, 2012
-url: http://apievangelist.com
+title: Hellow IPA Evangelist
 ---
 
 {% include JB/setup %}
