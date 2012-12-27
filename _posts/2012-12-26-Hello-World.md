@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hellow IPA Evangelist
+title: Hello IPA Evangelist
 ---
 
 {% include JB/setup %}
