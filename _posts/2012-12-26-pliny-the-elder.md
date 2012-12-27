@@ -3,6 +3,8 @@ layout: default
 published: false
 ---
 
+{% include JB/setup %}
+
 <p>Gaius Plinius Secundus better known as Pliny the Elder, was a Roman author, naturalist, and natural philosopher, as well as naval and army commander of the early Roman Empire, and personal friend of the emperor Vespasian.</p>
 
 <p>Wait! no...</p>
