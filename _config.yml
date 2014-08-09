@@ -1,4 +1,4 @@
-title : API Discovery
+title : IIPA Evangelist
 
 markdown: kramdown
 
@@ -7,8 +7,8 @@ lsi: false
 pygments: true
 auto: true
 
-source: api-discovery
-destination: api-discovery
+source: ipa-evangelist
+destination: ipa-evangelist
 
 permalink: /:categories/:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
@@ -16,9 +16,9 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 paginate: 10
 paginate_path: "/blog/page:num"
 
-production_url : http://discovery.apievangelist.com
+production_url : http://ipaevangelist.com
 
-BASE_PATH : http://discovery.apievangelist.com
+BASE_PATH : http://ipaevangelist.com
 
 archive_path: /archive.html
 categories_path : /categories.html

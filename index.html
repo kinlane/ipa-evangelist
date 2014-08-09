@@ -1,60 +1,18 @@
 ---
 layout: page
-title: API Discovery
+title: IPA Evangelist
+
 ---
+<h1>IPA Evangelist</h1>
 
-<h1 class="title">API Discovery</h1>
-<p><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-discovery.png" width="200" align="right" style="padding: 15px;" /></p>
-<p>In the early days of the web API movement (2005-2010), to find APIs, you went to ProgrammableWeb, which was the only site on the web that was exclusively dedicated to APIs.  Discovery happened via the PW directory and constant stream of news and analysis from the space.</p>  
-
-<p>ProgrammableWeb is still relevant in 2013, but as the number of APIs grows, the directory model is not meeting the demand for finding the best of breed APIs that developers are needing to build web and mobile apps.</p>
-
-<p>Among the API tech sector there is always discussion around the need for programatic discovery in API the API space.  Something that uses a WADL-like approach to describing APIs, so that the next generation of API directories, IDEs and other systems can discover, understand, monitor and integrate with APIs--with less human involvement.  In short, this vision hasn't been achieved.</p>
-
-<p>API discovery has two sides, finding the APIs you need and having your API be found.  As part of API Evangelist, I'd like help pay attention to both sides of this coin, and bring together the best news, analysis, tools and services for API Discovery.</p>
-
-<hr />
-<!-- Begin List API Design companies--->
-{% raw  %}
-<script id="companyListingTemplate" type="text/template">       
-    <li style="list-style: none; padding: 30px; border: 0px solid #000;">
-        <a href="companies-detail.html?id={{id}}"><img src="{{logo}}" width="{{width}}" align="left" style="padding: 15px;" /></a>
-        <a href="companies-detail.html?id={{id}}" style="color: #000;"><strong>{{name}}</strong></a> - {{summary}}... <a href="companies-detail.html?id={{id}}">details</a>.
-    </li>                                                                                               
-</script>
-{% endraw %}
-
-<p><a id="jsonlink" href="data/companies.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-json-data-store.png" align="right" width="50" style="padding-top: 10px;" /></a></p>
-<h1 class="title">Companies</h1>
-<div style="padding-left: 10px; padding-right: 10px; width:550px;">
-     <ul id="companyListing" style="padding-left: 30px;"></ul>
-</div>  
-
-<script type="text/javascript">
-function listCompanies()
-    {
-    $.getJSON('data/companies.json', function(data) {
-        toggle = 0;
-         $.each(data['company'], function(key, val) {
-            var template = $('#companyListingTemplate').html();
-            var html = Mustache.to_html(template, val);
-            $('#companyListing').append(html);                          
-            });
-        });
-    } 
-listCompanies();
-</script>
-<!-- End List API Design companies--->
-<hr />
-<!-- Begin List API Design companies--->
-{% raw  %}
-<script id="toolListingTemplate" type="text/template">       
-    <li style="list-style: none; padding: 30px; border: 0px solid #000;">
-        <a href="tools-detail.html?id={{id}}"><img src="{{logo}}" width="200" align="left" style="padding: 15px;" /></a>
-        <a href="tools-detail.html?id={{id}}" style="color: #000;"><strong>{{name}}</strong></a> - {{summary}}... <a href="tools-detail.html?id={{id}}">details</a>.
-    </li>                                                                                               
-</script>
-{% endraw %}
+<p><img src="https://s3.amazonaws.com/kinlane-productions/ipa-evangelist/ipa-1.jpg" align="right" width="300" style="padding: 15px;" /></p>
+<p>My name is Kin Lane.  I am an API Evangelist.  If you need more information on what an API is, header over to <a href="http://apievangelist.com" target="_blank">API Evangelist</a> for the business of APIs, <a href="http://apivoice.com" target="_blank">API Voice</a> for the politics of APIs and to actually see some APIs, head over to <a href="http://theapistack.com" target="_blank">API Stack</a>.</p>
+<p>Beyond the business and politics, there is a darker, parallel universe to this fast growing API driven world.  A world of India Pale Ales, also known as IPAs.</p>
+<p>A growing number of individuals responsible for APIs, actually drink IPAs.</p>
+<p>Mobile applications like <a href="https://untappd.com/home" target="_blank">Untappd</a>, provide access to information about a variety of IPAs, also has an API.</p>
+<p>Gatherings are popping up around the country, where <a href="http://apievangelist.com/blog/tag.php?Search_Tag=API%20Craft" target="_blank">people gather in pubs, drink IPAs and talk about APIs</a>.</p>
+<p>IPA Evangelist is dedicated to this phenomemon. My goal is track on on individuals, specific IPAs, breweries and pubs in this space.</p>
+<p>This site is hosted on Github, if you'd like to submit stories, feel free to contact me or fork the site and contribute.</p>
 
 <br /><br />
 <!-- 3scale -->
